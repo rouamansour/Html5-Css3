@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="login.css">
+      <title>login form</title>
+    </head>
+
+    <body>
+        <form method="post" action="index.html">
+        <!-- <div class="box"></div> -->
+        <h2><strong>login Form</strong></h2>
+        <form>
+            <div>
+                <label>Email</label>
+                <input type="text" placeholder="email addres" class="form-control" required/>
+                <br />
+                <label>Password</label>
+                <input type="password" placeholder="password" class="form-control" required/>
+                <br />
+                <input type="checkbox" checked="checked"> Remember me
+                <p>By creating an account you agree to our
+                <a href="#" class="Terms">Terms & Privacy</a>.</p>
+                <div class="clearfix"></div>
+                    <!-- <button type="submit">Login</button>  -->
+                    <!-- <button type="button" class="registerbtn">register</button> -->
+                    <!-- <button onclick="document.getElementById('id01').style.display='block'"
+                    style="width:auto;">register</button> -->
+
+                    <button  type="button" onclick="location.href = './register.html';" target="_blank"
+                    class="registerbtn">register</button>
+                    <button type="submit" class="loginbtn">login</button>
+                </div>
+                <div>
+                    <button type="button" class="cancelbtn">Cancel</button>
+                    <span class="psw">Forgot <a href="#">password?</a></span>
+                </div>
+            </div>   
+        </form>
+        <script src="login.js"></script>
+    </body>
+
+</html>
+
+
